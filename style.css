@@ -1,0 +1,62 @@
+@font-face {
+    font-family: fragment;
+    src: url(FragmentMono-Regular.ttf);
+}
+
+body{
+    background-color: black;
+    font-family: 'fragment';
+    color: white;
+}
+
+.title{
+    font-size: 50px;
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    margin-left: 100px;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-around;
+    height: 70vh;
+    margin: 100px;
+}
+
+img{
+    height: 200px;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-between;
+    margin: 200px;
+    margin-right: 400px;
+}
+
+.stats{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    max-width: 200px;
+    font-size: 20px;
+    height: 40px;
+    font-family: 'fragment';
+    color: greenyellow;
+    background-color: black;
+    border: 3px;
+    border-color: grey;
+    border-style:inset;
+}
+
+button:hover{
+    background-color: yellow;
+    color: black;
+}
